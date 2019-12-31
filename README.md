@@ -1,2 +1,9 @@
-# robust-quadratic-regression
-Code to support the paper "Conic Optimization for Robust Quadratic Regression: Deterministic Bounds and Statistical Analysis" presented on the Control and Decision Conference 2018
+## Conic Optimization for Robust Quadratic Regression: Deterministic Bounds and Statistical Analysis
+
+Main scripts:
+- State_Estimation_sdp.m    :     multi-round SDP simulation (5 sims for each data points)
+- State_Estimation_socp.m   :     multi-round SOCP simulation (5 sims for each data points)
+
+Variables:
+- result    :   the RMSE estimation error
+- resres    :   collects all RMSE values whose average were plotted
