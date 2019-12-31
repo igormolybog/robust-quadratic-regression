@@ -7,3 +7,17 @@ Main scripts:
 Variables:
 - result    :   the RMSE estimation error
 - resres    :   collects all RMSE values whose average were plotted
+
+If using the code for a publication, please cite the paper:
+
+
+    @inproceedings{molybog2018conic,
+      Title = {Conic optimization for robust quadratic regression: Deterministic bounds and statistical analysis},
+	  Author = {Molybog, Igor and Madani, Ramtin and Lavaei, Javad},
+	  Booktitle  = {2018 IEEE Conference on Decision and Control (CDC)},
+      Pages = {841--848},
+	  Year = {2018},
+      Organization = {IEEE}
+    }
+
+
